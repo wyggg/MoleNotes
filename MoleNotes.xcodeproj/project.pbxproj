@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6F114521E6B0BF800D27054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114511E6B0BF800D27054 /* main.m */; };
+		D6F114551E6B0BF800D27054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114541E6B0BF800D27054 /* AppDelegate.m */; };
+		D6F114581E6B0BF800D27054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114571E6B0BF800D27054 /* ViewController.m */; };
+		D6F1145B1E6B0BF800D27054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F114591E6B0BF800D27054 /* Main.storyboard */; };
+		D6F1145D1E6B0BF900D27054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F1145C1E6B0BF900D27054 /* Assets.xcassets */; };
+		D6F114601E6B0BF900D27054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */; };
+		D6F1146B1E6B0BF900D27054 /* MoleNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */; };
+		D6F114761E6B0BF900D27054 /* MoleNotesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F114671E6B0BF900D27054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F114451E6B0BF700D27054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F1144C1E6B0BF700D27054;
+			remoteInfo = MoleNotes;
+		};
+		D6F114721E6B0BF900D27054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F114451E6B0BF700D27054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F1144C1E6B0BF700D27054;
+			remoteInfo = MoleNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6F1144D1E6B0BF800D27054 /* MoleNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoleNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F114511E6B0BF800D27054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6F114531E6B0BF800D27054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6F114541E6B0BF800D27054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6F114561E6B0BF800D27054 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6F114571E6B0BF800D27054 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6F1145A1E6B0BF800D27054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F1145C1E6B0BF900D27054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F1145F1E6B0BF900D27054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F114611E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F114661E6B0BF900D27054 /* MoleNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoleNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoleNotesTests.m; sourceTree = "<group>"; };
+		D6F1146C1E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F114711E6B0BF900D27054 /* MoleNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoleNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoleNotesUITests.m; sourceTree = "<group>"; };
+		D6F114771E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F1144A1E6B0BF700D27054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F114631E6B0BF900D27054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F1146E1E6B0BF900D27054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F114441E6B0BF700D27054 = {
+			isa = PBXGroup;
+			children = (
+				D6F1144F1E6B0BF800D27054 /* MoleNotes */,
+				D6F114691E6B0BF900D27054 /* MoleNotesTests */,
+				D6F114741E6B0BF900D27054 /* MoleNotesUITests */,
+				D6F1144E1E6B0BF800D27054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F1144E1E6B0BF800D27054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1144D1E6B0BF800D27054 /* MoleNotes.app */,
+				D6F114661E6B0BF900D27054 /* MoleNotesTests.xctest */,
+				D6F114711E6B0BF900D27054 /* MoleNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F1144F1E6B0BF800D27054 /* MoleNotes */ = {
+			isa = PBXGroup;
+			children = (
+				D6F114531E6B0BF800D27054 /* AppDelegate.h */,
+				D6F114541E6B0BF800D27054 /* AppDelegate.m */,
+				D6F114561E6B0BF800D27054 /* ViewController.h */,
+				D6F114571E6B0BF800D27054 /* ViewController.m */,
+				D6F114591E6B0BF800D27054 /* Main.storyboard */,
+				D6F1145C1E6B0BF900D27054 /* Assets.xcassets */,
+				D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */,
+				D6F114611E6B0BF900D27054 /* Info.plist */,
+				D6F114501E6B0BF800D27054 /* Supporting Files */,
+			);
+			path = MoleNotes;
+			sourceTree = "<group>";
+		};
+		D6F114501E6B0BF800D27054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F114511E6B0BF800D27054 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6F114691E6B0BF900D27054 /* MoleNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */,
+				D6F1146C1E6B0BF900D27054 /* Info.plist */,
+			);
+			path = MoleNotesTests;
+			sourceTree = "<group>";
+		};
+		D6F114741E6B0BF900D27054 /* MoleNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */,
+				D6F114771E6B0BF900D27054 /* Info.plist */,
+			);
+			path = MoleNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F1144C1E6B0BF700D27054 /* MoleNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F1147A1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotes" */;
+			buildPhases = (
+				D6F114491E6B0BF700D27054 /* Sources */,
+				D6F1144A1E6B0BF700D27054 /* Frameworks */,
+				D6F1144B1E6B0BF700D27054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoleNotes;
+			productName = MoleNotes;
+			productReference = D6F1144D1E6B0BF800D27054 /* MoleNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F114651E6B0BF900D27054 /* MoleNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F1147D1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesTests" */;
+			buildPhases = (
+				D6F114621E6B0BF900D27054 /* Sources */,
+				D6F114631E6B0BF900D27054 /* Frameworks */,
+				D6F114641E6B0BF900D27054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F114681E6B0BF900D27054 /* PBXTargetDependency */,
+			);
+			name = MoleNotesTests;
+			productName = MoleNotesTests;
+			productReference = D6F114661E6B0BF900D27054 /* MoleNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F114701E6B0BF900D27054 /* MoleNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F114801E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesUITests" */;
+			buildPhases = (
+				D6F1146D1E6B0BF900D27054 /* Sources */,
+				D6F1146E1E6B0BF900D27054 /* Frameworks */,
+				D6F1146F1E6B0BF900D27054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F114731E6B0BF900D27054 /* PBXTargetDependency */,
+			);
+			name = MoleNotesUITests;
+			productName = MoleNotesUITests;
+			productReference = D6F114711E6B0BF900D27054 /* MoleNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F114451E6B0BF700D27054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wugang;
+				TargetAttributes = {
+					D6F1144C1E6B0BF700D27054 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7EC754N826;
+						ProvisioningStyle = Automatic;
+					};
+					D6F114651E6B0BF900D27054 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7EC754N826;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F1144C1E6B0BF700D27054;
+					};
+					D6F114701E6B0BF900D27054 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7EC754N826;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F1144C1E6B0BF700D27054;
+					};
+				};
+			};
+			buildConfigurationList = D6F114481E6B0BF700D27054 /* Build configuration list for PBXProject "MoleNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F114441E6B0BF700D27054;
+			productRefGroup = D6F1144E1E6B0BF800D27054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F1144C1E6B0BF700D27054 /* MoleNotes */,
+				D6F114651E6B0BF900D27054 /* MoleNotesTests */,
+				D6F114701E6B0BF900D27054 /* MoleNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F1144B1E6B0BF700D27054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F114601E6B0BF900D27054 /* LaunchScreen.storyboard in Resources */,
+				D6F1145D1E6B0BF900D27054 /* Assets.xcassets in Resources */,
+				D6F1145B1E6B0BF800D27054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F114641E6B0BF900D27054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F1146F1E6B0BF900D27054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F114491E6B0BF700D27054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F114581E6B0BF800D27054 /* ViewController.m in Sources */,
+				D6F114551E6B0BF800D27054 /* AppDelegate.m in Sources */,
+				D6F114521E6B0BF800D27054 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F114621E6B0BF900D27054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F1146B1E6B0BF900D27054 /* MoleNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F1146D1E6B0BF900D27054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F114761E6B0BF900D27054 /* MoleNotesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F114681E6B0BF900D27054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F1144C1E6B0BF700D27054 /* MoleNotes */;
+			targetProxy = D6F114671E6B0BF900D27054 /* PBXContainerItemProxy */;
+		};
+		D6F114731E6B0BF900D27054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F1144C1E6B0BF700D27054 /* MoleNotes */;
+			targetProxy = D6F114721E6B0BF900D27054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F114591E6B0BF800D27054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F1145A1E6B0BF800D27054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F1145F1E6B0BF900D27054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F114781E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F114791E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F1147B1E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6F1147C1E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6F1147E1E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoleNotes.app/MoleNotes";
+			};
+			name = Debug;
+		};
+		D6F1147F1E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoleNotes.app/MoleNotes";
+			};
+			name = Release;
+		};
+		D6F114811E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoleNotes;
+			};
+			name = Debug;
+		};
+		D6F114821E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoleNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F114481E6B0BF700D27054 /* Build configuration list for PBXProject "MoleNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F114781E6B0BF900D27054 /* Debug */,
+				D6F114791E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F1147A1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F1147B1E6B0BF900D27054 /* Debug */,
+				D6F1147C1E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6F1147D1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F1147E1E6B0BF900D27054 /* Debug */,
+				D6F1147F1E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6F114801E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F114811E6B0BF900D27054 /* Debug */,
+				D6F114821E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F114451E6B0BF700D27054 /* Project object */;
+}
