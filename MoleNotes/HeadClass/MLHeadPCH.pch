@@ -1,0 +1,44 @@
+//
+//  MLHeadPCH.pch
+//  MoleNotes
+//
+//  Created by wugang on 17/3/5.
+//  Copyright © 2017年 wugang. All rights reserved.
+//
+
+#ifndef MLHeadPCH_pch
+#define MLHeadPCH_pch
+
+//第三方框架
+#import <Masonry.h>
+#import <UIImageView+HighlightedWebCache.h>
+
+//项目工具类
+#import "YGClassCollection.h"
+#import "BaseViewControler.h"
+#import "BaseView.h"
+#import "UIColor+MLColor.h"
+
+//NSLog定义
+#ifdef DEBUG
+
+# define NSLog(...) NSLog(__VA_ARGS__)
+
+# define YLog(fmt, ...) NSLog((@"<%@:(%d)> \n" fmt "\n\n"),[[NSString stringWithUTF8String:__FILE__] lastPathComponent],__LINE__,##__VA_ARGS__)
+
+# define YLog1(fmt, ...) NSLog((@"\n-  文件：%@"  "\n-  位置：%d 行 \n" "-  函数：%s\n"  "-  日志：" fmt "\n\n"),[[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__,__FUNCTION__,##__VA_ARGS__)
+
+#else
+# define NSLog(...)
+# define  YLog(...)
+# define  YLog1(...)
+#endif
+
+//读取本地图片
+#define kImageBundle(file,ext) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:file ofType:ext]]
+
+//定义UIImage对象
+#define kImageNamed(A) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:A ofType:nil]]
+
+
+#endif /* MLHeadPCH_pch */

@@ -1,1214 +1,735 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1E8D8656BF4C0910B48CDA70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-MoleNotes.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2645412117D54D4097F8BA49</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6FF9FAEC8B062651C91E606E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DA92DE46395E41C24984B093</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AB8C76C0F8C705746C4D0C4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9FBE2449850AE4E174335E84</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DA92DE46395E41C24984B093</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B03E58D1706B1137BB5B9EBB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>B611F21919F1947571F6B5BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-MoleNotes.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114441E6B0BF700D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F1144F1E6B0BF800D27054</string>
-				<string>D6F114691E6B0BF900D27054</string>
-				<string>D6F114741E6B0BF900D27054</string>
-				<string>D6F1144E1E6B0BF800D27054</string>
-				<string>E5D37D5540338378EDED60F2</string>
-				<string>6FF9FAEC8B062651C91E606E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114451E6B0BF700D27054</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0810</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>wugang</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>D6F1144C1E6B0BF700D27054</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>DevelopmentTeam</key>
-						<string>7EC754N826</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>D6F114651E6B0BF900D27054</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>DevelopmentTeam</key>
-						<string>7EC754N826</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>D6F1144C1E6B0BF700D27054</string>
-					</dict>
-					<key>D6F114701E6B0BF900D27054</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>DevelopmentTeam</key>
-						<string>7EC754N826</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>D6F1144C1E6B0BF700D27054</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D6F114481E6B0BF700D27054</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>D6F114441E6B0BF700D27054</string>
-			<key>productRefGroup</key>
-			<string>D6F1144E1E6B0BF800D27054</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D6F1144C1E6B0BF700D27054</string>
-				<string>D6F114651E6B0BF900D27054</string>
-				<string>D6F114701E6B0BF900D27054</string>
-			</array>
-		</dict>
-		<key>D6F114481E6B0BF700D27054</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D6F114781E6B0BF900D27054</string>
-				<string>D6F114791E6B0BF900D27054</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D6F114491E6B0BF700D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D6F114581E6B0BF800D27054</string>
-				<string>D6F114551E6B0BF800D27054</string>
-				<string>D6F114521E6B0BF800D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F1144A1E6B0BF700D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9FBE2449850AE4E174335E84</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F1144B1E6B0BF700D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D6F114601E6B0BF900D27054</string>
-				<string>D6F1145D1E6B0BF900D27054</string>
-				<string>D6F1145B1E6B0BF800D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F1144C1E6B0BF700D27054</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D6F1147A1E6B0BF900D27054</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B03E58D1706B1137BB5B9EBB</string>
-				<string>D6F114491E6B0BF700D27054</string>
-				<string>D6F1144A1E6B0BF700D27054</string>
-				<string>D6F1144B1E6B0BF700D27054</string>
-				<string>2645412117D54D4097F8BA49</string>
-				<string>7AB8C76C0F8C705746C4D0C4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MoleNotes</string>
-			<key>productName</key>
-			<string>MoleNotes</string>
-			<key>productReference</key>
-			<string>D6F1144D1E6B0BF800D27054</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>D6F1144D1E6B0BF800D27054</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MoleNotes.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D6F1144E1E6B0BF800D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F1144D1E6B0BF800D27054</string>
-				<string>D6F114661E6B0BF900D27054</string>
-				<string>D6F114711E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1144F1E6B0BF800D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F114531E6B0BF800D27054</string>
-				<string>D6F114541E6B0BF800D27054</string>
-				<string>D6F114561E6B0BF800D27054</string>
-				<string>D6F114571E6B0BF800D27054</string>
-				<string>D6F114591E6B0BF800D27054</string>
-				<string>D6F1145C1E6B0BF900D27054</string>
-				<string>D6F1145E1E6B0BF900D27054</string>
-				<string>D6F114611E6B0BF900D27054</string>
-				<string>D6F114501E6B0BF800D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MoleNotes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114501E6B0BF800D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F114511E6B0BF800D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114511E6B0BF800D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114521E6B0BF800D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F114511E6B0BF800D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F114531E6B0BF800D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114541E6B0BF800D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114551E6B0BF800D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F114541E6B0BF800D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F114561E6B0BF800D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114571E6B0BF800D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114581E6B0BF800D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F114571E6B0BF800D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F114591E6B0BF800D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F1145A1E6B0BF800D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1145A1E6B0BF800D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1145B1E6B0BF800D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F114591E6B0BF800D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F1145C1E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1145D1E6B0BF900D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F1145C1E6B0BF900D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F1145E1E6B0BF900D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F1145F1E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1145F1E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114601E6B0BF900D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F1145E1E6B0BF900D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F114611E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114621E6B0BF900D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D6F1146B1E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F114631E6B0BF900D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F114641E6B0BF900D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F114651E6B0BF900D27054</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D6F1147D1E6B0BF900D27054</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D6F114621E6B0BF900D27054</string>
-				<string>D6F114631E6B0BF900D27054</string>
-				<string>D6F114641E6B0BF900D27054</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D6F114681E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MoleNotesTests</string>
-			<key>productName</key>
-			<string>MoleNotesTests</string>
-			<key>productReference</key>
-			<string>D6F114661E6B0BF900D27054</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>D6F114661E6B0BF900D27054</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MoleNotesTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D6F114671E6B0BF900D27054</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D6F114451E6B0BF700D27054</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D6F1144C1E6B0BF700D27054</string>
-			<key>remoteInfo</key>
-			<string>MoleNotes</string>
-		</dict>
-		<key>D6F114681E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D6F1144C1E6B0BF700D27054</string>
-			<key>targetProxy</key>
-			<string>D6F114671E6B0BF900D27054</string>
-		</dict>
-		<key>D6F114691E6B0BF900D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F1146A1E6B0BF900D27054</string>
-				<string>D6F1146C1E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MoleNotesTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1146A1E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MoleNotesTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1146B1E6B0BF900D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F1146A1E6B0BF900D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F1146C1E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F1146D1E6B0BF900D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D6F114761E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F1146E1E6B0BF900D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F1146F1E6B0BF900D27054</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6F114701E6B0BF900D27054</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D6F114801E6B0BF900D27054</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D6F1146D1E6B0BF900D27054</string>
-				<string>D6F1146E1E6B0BF900D27054</string>
-				<string>D6F1146F1E6B0BF900D27054</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D6F114731E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MoleNotesUITests</string>
-			<key>productName</key>
-			<string>MoleNotesUITests</string>
-			<key>productReference</key>
-			<string>D6F114711E6B0BF900D27054</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>D6F114711E6B0BF900D27054</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MoleNotesUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D6F114721E6B0BF900D27054</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D6F114451E6B0BF700D27054</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D6F1144C1E6B0BF700D27054</string>
-			<key>remoteInfo</key>
-			<string>MoleNotes</string>
-		</dict>
-		<key>D6F114731E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D6F1144C1E6B0BF700D27054</string>
-			<key>targetProxy</key>
-			<string>D6F114721E6B0BF900D27054</string>
-		</dict>
-		<key>D6F114741E6B0BF900D27054</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D6F114751E6B0BF900D27054</string>
-				<string>D6F114771E6B0BF900D27054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MoleNotesUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114751E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MoleNotesUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114761E6B0BF900D27054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F114751E6B0BF900D27054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6F114771E6B0BF900D27054</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F114781E6B0BF900D27054</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D6F114791E6B0BF900D27054</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D6F1147A1E6B0BF900D27054</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D6F1147B1E6B0BF900D27054</string>
-				<string>D6F1147C1E6B0BF900D27054</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D6F1147B1E6B0BF900D27054</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1E8D8656BF4C0910B48CDA70</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>7EC754N826</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MoleNotes/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.wugang.MoleNotes</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D6F1147C1E6B0BF900D27054</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B611F21919F1947571F6B5BF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>7EC754N826</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MoleNotes/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.wugang.MoleNotes</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D6F1147D1E6B0BF900D27054</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D6F1147E1E6B0BF900D27054</string>
-				<string>D6F1147F1E6B0BF900D27054</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D6F1147E1E6B0BF900D27054</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>7EC754N826</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MoleNotesTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.wugang.MoleNotesTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/MoleNotes.app/MoleNotes</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D6F1147F1E6B0BF900D27054</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>7EC754N826</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MoleNotesTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.wugang.MoleNotesTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/MoleNotes.app/MoleNotes</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D6F114801E6B0BF900D27054</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D6F114811E6B0BF900D27054</string>
-				<string>D6F114821E6B0BF900D27054</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D6F114811E6B0BF900D27054</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>7EC754N826</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MoleNotesUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.wugang.MoleNotesUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>MoleNotes</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D6F114821E6B0BF900D27054</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>7EC754N826</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MoleNotesUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.wugang.MoleNotesUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>MoleNotes</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DA92DE46395E41C24984B093</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MoleNotes.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E5D37D5540338378EDED60F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1E8D8656BF4C0910B48CDA70</string>
-				<string>B611F21919F1947571F6B5BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D6F114451E6B0BF700D27054</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FBE2449850AE4E174335E84 /* libPods-MoleNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA92DE46395E41C24984B093 /* libPods-MoleNotes.a */; };
+		D6F114521E6B0BF800D27054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114511E6B0BF800D27054 /* main.m */; };
+		D6F114551E6B0BF800D27054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114541E6B0BF800D27054 /* AppDelegate.m */; };
+		D6F1145D1E6B0BF900D27054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F1145C1E6B0BF900D27054 /* Assets.xcassets */; };
+		D6F114601E6B0BF900D27054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */; };
+		D6F1146B1E6B0BF900D27054 /* MoleNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */; };
+		D6F114761E6B0BF900D27054 /* MoleNotesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */; };
+		D6F114861E6B1D7200D27054 /* BaseViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114851E6B1D7200D27054 /* BaseViewControler.m */; };
+		D6F114891E6B1D8500D27054 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114881E6B1D8500D27054 /* BaseView.m */; };
+		D6F114A41E6B20EB00D27054 /* NSAttributedString+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1148F1E6B20EB00D27054 /* NSAttributedString+YGTool.m */; };
+		D6F114A51E6B20EB00D27054 /* NSDate+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114911E6B20EB00D27054 /* NSDate+YGTool.m */; };
+		D6F114A61E6B20EB00D27054 /* NSObject+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114931E6B20EB00D27054 /* NSObject+YGTool.m */; };
+		D6F114A71E6B20EB00D27054 /* NSString+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114951E6B20EB00D27054 /* NSString+YGTool.m */; };
+		D6F114A81E6B20EB00D27054 /* NSTimer+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114971E6B20EB00D27054 /* NSTimer+YGTool.m */; };
+		D6F114A91E6B20EB00D27054 /* UIButton+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114991E6B20EB00D27054 /* UIButton+YGTool.m */; };
+		D6F114AA1E6B20EB00D27054 /* UIColor+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1149B1E6B20EB00D27054 /* UIColor+YGTool.m */; };
+		D6F114AB1E6B20EB00D27054 /* UIImage+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1149D1E6B20EB00D27054 /* UIImage+YGTool.m */; };
+		D6F114AC1E6B20EB00D27054 /* UIView+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1149F1E6B20EB00D27054 /* UIView+YGTool.m */; };
+		D6F114AD1E6B20EB00D27054 /* UIWebView+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114A11E6B20EB00D27054 /* UIWebView+YGTool.m */; };
+		D6F114B01E6B21D700D27054 /* MLTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114AF1E6B21D700D27054 /* MLTabBarVC.m */; };
+		D6F114B41E6B249400D27054 /* UIColor+MLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114B31E6B249400D27054 /* UIColor+MLColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F114671E6B0BF900D27054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F114451E6B0BF700D27054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F1144C1E6B0BF700D27054;
+			remoteInfo = MoleNotes;
+		};
+		D6F114721E6B0BF900D27054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F114451E6B0BF700D27054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F1144C1E6B0BF700D27054;
+			remoteInfo = MoleNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8D8656BF4C0910B48CDA70 /* Pods-MoleNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		B611F21919F1947571F6B5BF /* Pods-MoleNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.release.xcconfig"; sourceTree = "<group>"; };
+		D6F1144D1E6B0BF800D27054 /* MoleNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoleNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F114511E6B0BF800D27054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6F114531E6B0BF800D27054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6F114541E6B0BF800D27054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6F1145C1E6B0BF900D27054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F1145F1E6B0BF900D27054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F114611E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F114661E6B0BF900D27054 /* MoleNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoleNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoleNotesTests.m; sourceTree = "<group>"; };
+		D6F1146C1E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F114711E6B0BF900D27054 /* MoleNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoleNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoleNotesUITests.m; sourceTree = "<group>"; };
+		D6F114771E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F114841E6B1D7200D27054 /* BaseViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewControler.h; sourceTree = "<group>"; };
+		D6F114851E6B1D7200D27054 /* BaseViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewControler.m; sourceTree = "<group>"; };
+		D6F114871E6B1D8500D27054 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		D6F114881E6B1D8500D27054 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		D6F1148B1E6B1DD000D27054 /* MLHeadPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLHeadPCH.pch; sourceTree = "<group>"; };
+		D6F1148E1E6B20EB00D27054 /* NSAttributedString+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YGTool.h"; sourceTree = "<group>"; };
+		D6F1148F1E6B20EB00D27054 /* NSAttributedString+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YGTool.m"; sourceTree = "<group>"; };
+		D6F114901E6B20EB00D27054 /* NSDate+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YGTool.h"; sourceTree = "<group>"; };
+		D6F114911E6B20EB00D27054 /* NSDate+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YGTool.m"; sourceTree = "<group>"; };
+		D6F114921E6B20EB00D27054 /* NSObject+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YGTool.h"; sourceTree = "<group>"; };
+		D6F114931E6B20EB00D27054 /* NSObject+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YGTool.m"; sourceTree = "<group>"; };
+		D6F114941E6B20EB00D27054 /* NSString+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YGTool.h"; sourceTree = "<group>"; };
+		D6F114951E6B20EB00D27054 /* NSString+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YGTool.m"; sourceTree = "<group>"; };
+		D6F114961E6B20EB00D27054 /* NSTimer+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+YGTool.h"; sourceTree = "<group>"; };
+		D6F114971E6B20EB00D27054 /* NSTimer+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+YGTool.m"; sourceTree = "<group>"; };
+		D6F114981E6B20EB00D27054 /* UIButton+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YGTool.h"; sourceTree = "<group>"; };
+		D6F114991E6B20EB00D27054 /* UIButton+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YGTool.m"; sourceTree = "<group>"; };
+		D6F1149A1E6B20EB00D27054 /* UIColor+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YGTool.h"; sourceTree = "<group>"; };
+		D6F1149B1E6B20EB00D27054 /* UIColor+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YGTool.m"; sourceTree = "<group>"; };
+		D6F1149C1E6B20EB00D27054 /* UIImage+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YGTool.h"; sourceTree = "<group>"; };
+		D6F1149D1E6B20EB00D27054 /* UIImage+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YGTool.m"; sourceTree = "<group>"; };
+		D6F1149E1E6B20EB00D27054 /* UIView+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGTool.h"; sourceTree = "<group>"; };
+		D6F1149F1E6B20EB00D27054 /* UIView+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGTool.m"; sourceTree = "<group>"; };
+		D6F114A01E6B20EB00D27054 /* UIWebView+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+YGTool.h"; sourceTree = "<group>"; };
+		D6F114A11E6B20EB00D27054 /* UIWebView+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+YGTool.m"; sourceTree = "<group>"; };
+		D6F114A21E6B20EB00D27054 /* YGClassCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGClassCollection.h; sourceTree = "<group>"; };
+		D6F114A31E6B20EB00D27054 /* YGObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGObjectModel.h; sourceTree = "<group>"; };
+		D6F114AE1E6B21D700D27054 /* MLTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTabBarVC.h; sourceTree = "<group>"; };
+		D6F114AF1E6B21D700D27054 /* MLTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTabBarVC.m; sourceTree = "<group>"; };
+		D6F114B21E6B249400D27054 /* UIColor+MLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLColor.h"; sourceTree = "<group>"; };
+		D6F114B31E6B249400D27054 /* UIColor+MLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLColor.m"; sourceTree = "<group>"; };
+		DA92DE46395E41C24984B093 /* libPods-MoleNotes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoleNotes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F1144A1E6B0BF700D27054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBE2449850AE4E174335E84 /* libPods-MoleNotes.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F114631E6B0BF900D27054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F1146E1E6B0BF900D27054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF9FAEC8B062651C91E606E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA92DE46395E41C24984B093 /* libPods-MoleNotes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F114441E6B0BF700D27054 = {
+			isa = PBXGroup;
+			children = (
+				D6F1144F1E6B0BF800D27054 /* MoleNotes */,
+				D6F114691E6B0BF900D27054 /* MoleNotesTests */,
+				D6F114741E6B0BF900D27054 /* MoleNotesUITests */,
+				D6F1144E1E6B0BF800D27054 /* Products */,
+				E5D37D5540338378EDED60F2 /* Pods */,
+				6FF9FAEC8B062651C91E606E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F1144E1E6B0BF800D27054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1144D1E6B0BF800D27054 /* MoleNotes.app */,
+				D6F114661E6B0BF900D27054 /* MoleNotesTests.xctest */,
+				D6F114711E6B0BF900D27054 /* MoleNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F1144F1E6B0BF800D27054 /* MoleNotes */ = {
+			isa = PBXGroup;
+			children = (
+				D6F114B11E6B228A00D27054 /* Modules */,
+				D6F1148C1E6B20CB00D27054 /* ToolClass */,
+				D6F1148A1E6B1DA200D27054 /* HeadClass */,
+				D6F114831E6B1D5300D27054 /* BaseClass */,
+				D6F114531E6B0BF800D27054 /* AppDelegate.h */,
+				D6F114541E6B0BF800D27054 /* AppDelegate.m */,
+				D6F1145C1E6B0BF900D27054 /* Assets.xcassets */,
+				D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */,
+				D6F114611E6B0BF900D27054 /* Info.plist */,
+				D6F114501E6B0BF800D27054 /* Supporting Files */,
+			);
+			path = MoleNotes;
+			sourceTree = "<group>";
+		};
+		D6F114501E6B0BF800D27054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F114511E6B0BF800D27054 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6F114691E6B0BF900D27054 /* MoleNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */,
+				D6F1146C1E6B0BF900D27054 /* Info.plist */,
+			);
+			path = MoleNotesTests;
+			sourceTree = "<group>";
+		};
+		D6F114741E6B0BF900D27054 /* MoleNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */,
+				D6F114771E6B0BF900D27054 /* Info.plist */,
+			);
+			path = MoleNotesUITests;
+			sourceTree = "<group>";
+		};
+		D6F114831E6B1D5300D27054 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				D6F114AE1E6B21D700D27054 /* MLTabBarVC.h */,
+				D6F114AF1E6B21D700D27054 /* MLTabBarVC.m */,
+				D6F114841E6B1D7200D27054 /* BaseViewControler.h */,
+				D6F114851E6B1D7200D27054 /* BaseViewControler.m */,
+				D6F114871E6B1D8500D27054 /* BaseView.h */,
+				D6F114881E6B1D8500D27054 /* BaseView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		D6F1148A1E6B1DA200D27054 /* HeadClass */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1148B1E6B1DD000D27054 /* MLHeadPCH.pch */,
+				D6F114B21E6B249400D27054 /* UIColor+MLColor.h */,
+				D6F114B31E6B249400D27054 /* UIColor+MLColor.m */,
+			);
+			path = HeadClass;
+			sourceTree = "<group>";
+		};
+		D6F1148C1E6B20CB00D27054 /* ToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1148D1E6B20EB00D27054 /* YG++ */,
+			);
+			path = ToolClass;
+			sourceTree = "<group>";
+		};
+		D6F1148D1E6B20EB00D27054 /* YG++ */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1148E1E6B20EB00D27054 /* NSAttributedString+YGTool.h */,
+				D6F1148F1E6B20EB00D27054 /* NSAttributedString+YGTool.m */,
+				D6F114901E6B20EB00D27054 /* NSDate+YGTool.h */,
+				D6F114911E6B20EB00D27054 /* NSDate+YGTool.m */,
+				D6F114921E6B20EB00D27054 /* NSObject+YGTool.h */,
+				D6F114931E6B20EB00D27054 /* NSObject+YGTool.m */,
+				D6F114941E6B20EB00D27054 /* NSString+YGTool.h */,
+				D6F114951E6B20EB00D27054 /* NSString+YGTool.m */,
+				D6F114961E6B20EB00D27054 /* NSTimer+YGTool.h */,
+				D6F114971E6B20EB00D27054 /* NSTimer+YGTool.m */,
+				D6F114981E6B20EB00D27054 /* UIButton+YGTool.h */,
+				D6F114991E6B20EB00D27054 /* UIButton+YGTool.m */,
+				D6F1149A1E6B20EB00D27054 /* UIColor+YGTool.h */,
+				D6F1149B1E6B20EB00D27054 /* UIColor+YGTool.m */,
+				D6F1149C1E6B20EB00D27054 /* UIImage+YGTool.h */,
+				D6F1149D1E6B20EB00D27054 /* UIImage+YGTool.m */,
+				D6F1149E1E6B20EB00D27054 /* UIView+YGTool.h */,
+				D6F1149F1E6B20EB00D27054 /* UIView+YGTool.m */,
+				D6F114A01E6B20EB00D27054 /* UIWebView+YGTool.h */,
+				D6F114A11E6B20EB00D27054 /* UIWebView+YGTool.m */,
+				D6F114A21E6B20EB00D27054 /* YGClassCollection.h */,
+				D6F114A31E6B20EB00D27054 /* YGObjectModel.h */,
+			);
+			path = "YG++";
+			sourceTree = "<group>";
+		};
+		D6F114B11E6B228A00D27054 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E5D37D5540338378EDED60F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D8656BF4C0910B48CDA70 /* Pods-MoleNotes.debug.xcconfig */,
+				B611F21919F1947571F6B5BF /* Pods-MoleNotes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F1144C1E6B0BF700D27054 /* MoleNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F1147A1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotes" */;
+			buildPhases = (
+				B03E58D1706B1137BB5B9EBB /* 📦 Check Pods Manifest.lock */,
+				D6F114491E6B0BF700D27054 /* Sources */,
+				D6F1144A1E6B0BF700D27054 /* Frameworks */,
+				D6F1144B1E6B0BF700D27054 /* Resources */,
+				2645412117D54D4097F8BA49 /* 📦 Embed Pods Frameworks */,
+				7AB8C76C0F8C705746C4D0C4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoleNotes;
+			productName = MoleNotes;
+			productReference = D6F1144D1E6B0BF800D27054 /* MoleNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F114651E6B0BF900D27054 /* MoleNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F1147D1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesTests" */;
+			buildPhases = (
+				D6F114621E6B0BF900D27054 /* Sources */,
+				D6F114631E6B0BF900D27054 /* Frameworks */,
+				D6F114641E6B0BF900D27054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F114681E6B0BF900D27054 /* PBXTargetDependency */,
+			);
+			name = MoleNotesTests;
+			productName = MoleNotesTests;
+			productReference = D6F114661E6B0BF900D27054 /* MoleNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F114701E6B0BF900D27054 /* MoleNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F114801E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesUITests" */;
+			buildPhases = (
+				D6F1146D1E6B0BF900D27054 /* Sources */,
+				D6F1146E1E6B0BF900D27054 /* Frameworks */,
+				D6F1146F1E6B0BF900D27054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F114731E6B0BF900D27054 /* PBXTargetDependency */,
+			);
+			name = MoleNotesUITests;
+			productName = MoleNotesUITests;
+			productReference = D6F114711E6B0BF900D27054 /* MoleNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F114451E6B0BF700D27054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wugang;
+				TargetAttributes = {
+					D6F1144C1E6B0BF700D27054 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7EC754N826;
+						ProvisioningStyle = Automatic;
+					};
+					D6F114651E6B0BF900D27054 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7EC754N826;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F1144C1E6B0BF700D27054;
+					};
+					D6F114701E6B0BF900D27054 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7EC754N826;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F1144C1E6B0BF700D27054;
+					};
+				};
+			};
+			buildConfigurationList = D6F114481E6B0BF700D27054 /* Build configuration list for PBXProject "MoleNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F114441E6B0BF700D27054;
+			productRefGroup = D6F1144E1E6B0BF800D27054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F1144C1E6B0BF700D27054 /* MoleNotes */,
+				D6F114651E6B0BF900D27054 /* MoleNotesTests */,
+				D6F114701E6B0BF900D27054 /* MoleNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F1144B1E6B0BF700D27054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F114601E6B0BF900D27054 /* LaunchScreen.storyboard in Resources */,
+				D6F1145D1E6B0BF900D27054 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F114641E6B0BF900D27054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F1146F1E6B0BF900D27054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2645412117D54D4097F8BA49 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB8C76C0F8C705746C4D0C4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03E58D1706B1137BB5B9EBB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F114491E6B0BF700D27054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F114AA1E6B20EB00D27054 /* UIColor+YGTool.m in Sources */,
+				D6F114AB1E6B20EB00D27054 /* UIImage+YGTool.m in Sources */,
+				D6F114A61E6B20EB00D27054 /* NSObject+YGTool.m in Sources */,
+				D6F114AD1E6B20EB00D27054 /* UIWebView+YGTool.m in Sources */,
+				D6F114AC1E6B20EB00D27054 /* UIView+YGTool.m in Sources */,
+				D6F114551E6B0BF800D27054 /* AppDelegate.m in Sources */,
+				D6F114521E6B0BF800D27054 /* main.m in Sources */,
+				D6F114A91E6B20EB00D27054 /* UIButton+YGTool.m in Sources */,
+				D6F114A51E6B20EB00D27054 /* NSDate+YGTool.m in Sources */,
+				D6F114B01E6B21D700D27054 /* MLTabBarVC.m in Sources */,
+				D6F114861E6B1D7200D27054 /* BaseViewControler.m in Sources */,
+				D6F114A71E6B20EB00D27054 /* NSString+YGTool.m in Sources */,
+				D6F114B41E6B249400D27054 /* UIColor+MLColor.m in Sources */,
+				D6F114A41E6B20EB00D27054 /* NSAttributedString+YGTool.m in Sources */,
+				D6F114891E6B1D8500D27054 /* BaseView.m in Sources */,
+				D6F114A81E6B20EB00D27054 /* NSTimer+YGTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F114621E6B0BF900D27054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F1146B1E6B0BF900D27054 /* MoleNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F1146D1E6B0BF900D27054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F114761E6B0BF900D27054 /* MoleNotesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F114681E6B0BF900D27054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F1144C1E6B0BF700D27054 /* MoleNotes */;
+			targetProxy = D6F114671E6B0BF900D27054 /* PBXContainerItemProxy */;
+		};
+		D6F114731E6B0BF900D27054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F1144C1E6B0BF700D27054 /* MoleNotes */;
+			targetProxy = D6F114721E6B0BF900D27054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F1145F1E6B0BF900D27054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F114781E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F114791E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F1147B1E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8D8656BF4C0910B48CDA70 /* Pods-MoleNotes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EC754N826;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoleNotes/HeadClass/MLHeadPCH.pch";
+				INFOPLIST_FILE = MoleNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6F1147C1E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B611F21919F1947571F6B5BF /* Pods-MoleNotes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EC754N826;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoleNotes/HeadClass/MLHeadPCH.pch";
+				INFOPLIST_FILE = MoleNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6F1147E1E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoleNotes.app/MoleNotes";
+			};
+			name = Debug;
+		};
+		D6F1147F1E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoleNotes.app/MoleNotes";
+			};
+			name = Release;
+		};
+		D6F114811E6B0BF900D27054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoleNotes;
+			};
+			name = Debug;
+		};
+		D6F114821E6B0BF900D27054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7EC754N826;
+				INFOPLIST_FILE = MoleNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoleNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F114481E6B0BF700D27054 /* Build configuration list for PBXProject "MoleNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F114781E6B0BF900D27054 /* Debug */,
+				D6F114791E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F1147A1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F1147B1E6B0BF900D27054 /* Debug */,
+				D6F1147C1E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F1147D1E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F1147E1E6B0BF900D27054 /* Debug */,
+				D6F1147F1E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F114801E6B0BF900D27054 /* Build configuration list for PBXNativeTarget "MoleNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F114811E6B0BF900D27054 /* Debug */,
+				D6F114821E6B0BF900D27054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F114451E6B0BF700D27054 /* Project object */;
+}

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  BaseViewControler.h
 //  MoleNotes
 //
-//  Created by wugang on 17/3/4.
+//  Created by wugang on 17/3/5.
 //  Copyright © 2017年 wugang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseViewControler : UIViewController
 
 @end
-

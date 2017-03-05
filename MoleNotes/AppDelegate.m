@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MLTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-   // Override point for customization after application launch.
+   
+   //创建根视图
+   UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+   window.backgroundColor = [UIColor whiteColor];
+   
+   
+   //将window设置为根视图
+   self.window = window;
+   [window makeKeyAndVisible];
+   
+   //创建根视图控制器
+   MLTabBarVC *tabbarVC = [[MLTabBarVC alloc] init];
+   window.rootViewController = tabbarVC;
+   
+   
+   
    return YES;
 }
 
