@@ -1,27 +1,22 @@
 //
-//  BaseViewControler.m
+//  AVC.m
 //  MoleNotes
 //
-//  Created by wugang on 17/3/5.
+//  Created by iOS wugang on 17/3/17.
 //  Copyright © 2017年 wugang. All rights reserved.
 //
 
-#import "BaseViewControler.h"
-#import "YGPagesView.h"
+#import "AVC.h"
 
-@interface BaseViewControler ()
+@interface AVC ()
 
 @end
 
-@implementation BaseViewControler
+@implementation AVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.automaticallyAdjustsScrollViewInsets = NO;
-   self.view.backgroundColor = [UIColor mlBacrgroundColor];
-   
-   [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
