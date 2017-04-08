@@ -1,27 +1,22 @@
 //
-//  BaseViewControler.m
+//  CVC.m
 //  MoleNotes
 //
-//  Created by wugang on 17/3/5.
+//  Created by iOS wugang on 17/3/17.
 //  Copyright © 2017年 wugang. All rights reserved.
 //
 
-#import "BaseViewControler.h"
-#import "YGPagesView.h"
+#import "CVC.h"
 
-@interface BaseViewControler ()
+@interface CVC ()
 
 @end
 
-@implementation BaseViewControler
+@implementation CVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.automaticallyAdjustsScrollViewInsets = NO;
-   self.view.backgroundColor = [UIColor mlBacrgroundColor];
-   
-   [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
