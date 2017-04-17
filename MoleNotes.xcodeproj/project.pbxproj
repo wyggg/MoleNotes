@@ -8,31 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		9FBE2449850AE4E174335E84 /* libPods-MoleNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA92DE46395E41C24984B093 /* libPods-MoleNotes.a */; };
-		D5738DD01E7BC3D90036661C /* YGPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5738DCF1E7BC3D90036661C /* YGPagesView.m */; };
-		D5738DD31E7BC5760036661C /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5738DD21E7BC5760036661C /* AVC.m */; };
-		D5738DD61E7BC5810036661C /* BVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5738DD51E7BC5810036661C /* BVC.m */; };
-		D5738DD91E7BC58B0036661C /* CVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5738DD81E7BC58B0036661C /* CVC.m */; };
-		D5738DDD1E7BDBC70036661C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5738DDC1E7BDBC70036661C /* HomeVC.m */; };
-		D6F114521E6B0BF800D27054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114511E6B0BF800D27054 /* main.m */; };
-		D6F114551E6B0BF800D27054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114541E6B0BF800D27054 /* AppDelegate.m */; };
-		D6F1145D1E6B0BF900D27054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F1145C1E6B0BF900D27054 /* Assets.xcassets */; };
-		D6F114601E6B0BF900D27054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */; };
+		D5B582561EA4CA3C00ABB09A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582231EA4CA3C00ABB09A /* AppDelegate.m */; };
+		D5B582571EA4CA3C00ABB09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B582241EA4CA3C00ABB09A /* Assets.xcassets */; };
+		D5B582581EA4CA3C00ABB09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B582251EA4CA3C00ABB09A /* LaunchScreen.storyboard */; };
+		D5B5825A1EA4CA3C00ABB09A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5B5822B1EA4CA3C00ABB09A /* Info.plist */; };
+		D5B5825B1EA4CA3C00ABB09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5822C1EA4CA3C00ABB09A /* main.m */; };
+		D5B5825D1EA4CA3C00ABB09A /* NSAttributedString+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582351EA4CA3C00ABB09A /* NSAttributedString+YGTool.m */; };
+		D5B5825E1EA4CA3C00ABB09A /* NSDate+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582371EA4CA3C00ABB09A /* NSDate+YGTool.m */; };
+		D5B5825F1EA4CA3C00ABB09A /* NSObject+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582391EA4CA3C00ABB09A /* NSObject+YGTool.m */; };
+		D5B582601EA4CA3C00ABB09A /* NSString+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5823B1EA4CA3C00ABB09A /* NSString+YGTool.m */; };
+		D5B582611EA4CA3C00ABB09A /* NSTimer+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5823D1EA4CA3C00ABB09A /* NSTimer+YGTool.m */; };
+		D5B582621EA4CA3C00ABB09A /* UIButton+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5823F1EA4CA3C00ABB09A /* UIButton+YGTool.m */; };
+		D5B582631EA4CA3C00ABB09A /* UIColor+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582411EA4CA3C00ABB09A /* UIColor+YGTool.m */; };
+		D5B582641EA4CA3C00ABB09A /* UIImage+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582431EA4CA3C00ABB09A /* UIImage+YGTool.m */; };
+		D5B582651EA4CA3C00ABB09A /* UIView+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582451EA4CA3C00ABB09A /* UIView+YGTool.m */; };
+		D5B582661EA4CA3C00ABB09A /* UIWebView+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582471EA4CA3C00ABB09A /* UIWebView+YGTool.m */; };
+		D5B582671EA4CA3C00ABB09A /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5824D1EA4CA3C00ABB09A /* BaseView.m */; };
+		D5B582681EA4CA3C00ABB09A /* BaseViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5824F1EA4CA3C00ABB09A /* BaseViewControler.m */; };
+		D5B582691EA4CA3C00ABB09A /* MLTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582511EA4CA3C00ABB09A /* MLTabBarVC.m */; };
+		D5B5826A1EA4CA3C00ABB09A /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582541EA4CA3C00ABB09A /* HomeVC.m */; };
+		D5FB73131EA4CC0D0047FA6B /* MLDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB73121EA4CC0D0047FA6B /* MLDataManager.m */; };
+		D5FB73171EA4CCAF0047FA6B /* UIColor+MLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB73161EA4CCAF0047FA6B /* UIColor+MLColor.m */; };
 		D6F1146B1E6B0BF900D27054 /* MoleNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */; };
 		D6F114761E6B0BF900D27054 /* MoleNotesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */; };
-		D6F114861E6B1D7200D27054 /* BaseViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114851E6B1D7200D27054 /* BaseViewControler.m */; };
-		D6F114891E6B1D8500D27054 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114881E6B1D8500D27054 /* BaseView.m */; };
-		D6F114A41E6B20EB00D27054 /* NSAttributedString+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1148F1E6B20EB00D27054 /* NSAttributedString+YGTool.m */; };
-		D6F114A51E6B20EB00D27054 /* NSDate+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114911E6B20EB00D27054 /* NSDate+YGTool.m */; };
-		D6F114A61E6B20EB00D27054 /* NSObject+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114931E6B20EB00D27054 /* NSObject+YGTool.m */; };
-		D6F114A71E6B20EB00D27054 /* NSString+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114951E6B20EB00D27054 /* NSString+YGTool.m */; };
-		D6F114A81E6B20EB00D27054 /* NSTimer+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114971E6B20EB00D27054 /* NSTimer+YGTool.m */; };
-		D6F114A91E6B20EB00D27054 /* UIButton+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114991E6B20EB00D27054 /* UIButton+YGTool.m */; };
-		D6F114AA1E6B20EB00D27054 /* UIColor+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1149B1E6B20EB00D27054 /* UIColor+YGTool.m */; };
-		D6F114AB1E6B20EB00D27054 /* UIImage+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1149D1E6B20EB00D27054 /* UIImage+YGTool.m */; };
-		D6F114AC1E6B20EB00D27054 /* UIView+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1149F1E6B20EB00D27054 /* UIView+YGTool.m */; };
-		D6F114AD1E6B20EB00D27054 /* UIWebView+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114A11E6B20EB00D27054 /* UIWebView+YGTool.m */; };
-		D6F114B01E6B21D700D27054 /* MLTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114AF1E6B21D700D27054 /* MLTabBarVC.m */; };
-		D6F114B41E6B249400D27054 /* UIColor+MLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F114B31E6B249400D27054 /* UIColor+MLColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,60 +53,54 @@
 /* Begin PBXFileReference section */
 		1E8D8656BF4C0910B48CDA70 /* Pods-MoleNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.debug.xcconfig"; sourceTree = "<group>"; };
 		B611F21919F1947571F6B5BF /* Pods-MoleNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.release.xcconfig"; sourceTree = "<group>"; };
-		D5738DCE1E7BC3D90036661C /* YGPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPagesView.h; sourceTree = "<group>"; };
-		D5738DCF1E7BC3D90036661C /* YGPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPagesView.m; sourceTree = "<group>"; };
-		D5738DD11E7BC5760036661C /* AVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVC.h; sourceTree = "<group>"; };
-		D5738DD21E7BC5760036661C /* AVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVC.m; sourceTree = "<group>"; };
-		D5738DD41E7BC5810036661C /* BVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVC.h; sourceTree = "<group>"; };
-		D5738DD51E7BC5810036661C /* BVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVC.m; sourceTree = "<group>"; };
-		D5738DD71E7BC58B0036661C /* CVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVC.h; sourceTree = "<group>"; };
-		D5738DD81E7BC58B0036661C /* CVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVC.m; sourceTree = "<group>"; };
-		D5738DDB1E7BDBC70036661C /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
-		D5738DDC1E7BDBC70036661C /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		D5B582221EA4CA3C00ABB09A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5B582231EA4CA3C00ABB09A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5B582241EA4CA3C00ABB09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5B582261EA4CA3C00ABB09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5B582281EA4CA3C00ABB09A /* MLHeadPCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHeadPCH.pch; sourceTree = "<group>"; };
+		D5B5822B1EA4CA3C00ABB09A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B5822C1EA4CA3C00ABB09A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5B582341EA4CA3C00ABB09A /* NSAttributedString+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YGTool.h"; sourceTree = "<group>"; };
+		D5B582351EA4CA3C00ABB09A /* NSAttributedString+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YGTool.m"; sourceTree = "<group>"; };
+		D5B582361EA4CA3C00ABB09A /* NSDate+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YGTool.h"; sourceTree = "<group>"; };
+		D5B582371EA4CA3C00ABB09A /* NSDate+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YGTool.m"; sourceTree = "<group>"; };
+		D5B582381EA4CA3C00ABB09A /* NSObject+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YGTool.h"; sourceTree = "<group>"; };
+		D5B582391EA4CA3C00ABB09A /* NSObject+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YGTool.m"; sourceTree = "<group>"; };
+		D5B5823A1EA4CA3C00ABB09A /* NSString+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YGTool.h"; sourceTree = "<group>"; };
+		D5B5823B1EA4CA3C00ABB09A /* NSString+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YGTool.m"; sourceTree = "<group>"; };
+		D5B5823C1EA4CA3C00ABB09A /* NSTimer+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+YGTool.h"; sourceTree = "<group>"; };
+		D5B5823D1EA4CA3C00ABB09A /* NSTimer+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+YGTool.m"; sourceTree = "<group>"; };
+		D5B5823E1EA4CA3C00ABB09A /* UIButton+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YGTool.h"; sourceTree = "<group>"; };
+		D5B5823F1EA4CA3C00ABB09A /* UIButton+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YGTool.m"; sourceTree = "<group>"; };
+		D5B582401EA4CA3C00ABB09A /* UIColor+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YGTool.h"; sourceTree = "<group>"; };
+		D5B582411EA4CA3C00ABB09A /* UIColor+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YGTool.m"; sourceTree = "<group>"; };
+		D5B582421EA4CA3C00ABB09A /* UIImage+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YGTool.h"; sourceTree = "<group>"; };
+		D5B582431EA4CA3C00ABB09A /* UIImage+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YGTool.m"; sourceTree = "<group>"; };
+		D5B582441EA4CA3C00ABB09A /* UIView+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGTool.h"; sourceTree = "<group>"; };
+		D5B582451EA4CA3C00ABB09A /* UIView+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGTool.m"; sourceTree = "<group>"; };
+		D5B582461EA4CA3C00ABB09A /* UIWebView+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+YGTool.h"; sourceTree = "<group>"; };
+		D5B582471EA4CA3C00ABB09A /* UIWebView+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+YGTool.m"; sourceTree = "<group>"; };
+		D5B582481EA4CA3C00ABB09A /* YGClassCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGClassCollection.h; sourceTree = "<group>"; };
+		D5B582491EA4CA3C00ABB09A /* YGObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGObjectModel.h; sourceTree = "<group>"; };
+		D5B5824C1EA4CA3C00ABB09A /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		D5B5824D1EA4CA3C00ABB09A /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		D5B5824E1EA4CA3C00ABB09A /* BaseViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewControler.h; sourceTree = "<group>"; };
+		D5B5824F1EA4CA3C00ABB09A /* BaseViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewControler.m; sourceTree = "<group>"; };
+		D5B582501EA4CA3C00ABB09A /* MLTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTabBarVC.h; sourceTree = "<group>"; };
+		D5B582511EA4CA3C00ABB09A /* MLTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTabBarVC.m; sourceTree = "<group>"; };
+		D5B582531EA4CA3C00ABB09A /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		D5B582541EA4CA3C00ABB09A /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		D5FB73111EA4CC0D0047FA6B /* MLDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDataManager.h; sourceTree = "<group>"; };
+		D5FB73121EA4CC0D0047FA6B /* MLDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDataManager.m; sourceTree = "<group>"; };
+		D5FB73151EA4CCAF0047FA6B /* UIColor+MLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLColor.h"; sourceTree = "<group>"; };
+		D5FB73161EA4CCAF0047FA6B /* UIColor+MLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLColor.m"; sourceTree = "<group>"; };
 		D6F1144D1E6B0BF800D27054 /* MoleNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoleNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6F114511E6B0BF800D27054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D6F114531E6B0BF800D27054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D6F114541E6B0BF800D27054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6F1145C1E6B0BF900D27054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D6F1145F1E6B0BF900D27054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6F114611E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6F114661E6B0BF900D27054 /* MoleNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoleNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F1146A1E6B0BF900D27054 /* MoleNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoleNotesTests.m; sourceTree = "<group>"; };
 		D6F1146C1E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6F114711E6B0BF900D27054 /* MoleNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoleNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F114751E6B0BF900D27054 /* MoleNotesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoleNotesUITests.m; sourceTree = "<group>"; };
 		D6F114771E6B0BF900D27054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6F114841E6B1D7200D27054 /* BaseViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewControler.h; sourceTree = "<group>"; };
-		D6F114851E6B1D7200D27054 /* BaseViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewControler.m; sourceTree = "<group>"; };
-		D6F114871E6B1D8500D27054 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
-		D6F114881E6B1D8500D27054 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
-		D6F1148B1E6B1DD000D27054 /* MLHeadPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLHeadPCH.pch; sourceTree = "<group>"; };
-		D6F1148E1E6B20EB00D27054 /* NSAttributedString+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YGTool.h"; sourceTree = "<group>"; };
-		D6F1148F1E6B20EB00D27054 /* NSAttributedString+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YGTool.m"; sourceTree = "<group>"; };
-		D6F114901E6B20EB00D27054 /* NSDate+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YGTool.h"; sourceTree = "<group>"; };
-		D6F114911E6B20EB00D27054 /* NSDate+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YGTool.m"; sourceTree = "<group>"; };
-		D6F114921E6B20EB00D27054 /* NSObject+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YGTool.h"; sourceTree = "<group>"; };
-		D6F114931E6B20EB00D27054 /* NSObject+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YGTool.m"; sourceTree = "<group>"; };
-		D6F114941E6B20EB00D27054 /* NSString+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YGTool.h"; sourceTree = "<group>"; };
-		D6F114951E6B20EB00D27054 /* NSString+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YGTool.m"; sourceTree = "<group>"; };
-		D6F114961E6B20EB00D27054 /* NSTimer+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+YGTool.h"; sourceTree = "<group>"; };
-		D6F114971E6B20EB00D27054 /* NSTimer+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+YGTool.m"; sourceTree = "<group>"; };
-		D6F114981E6B20EB00D27054 /* UIButton+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YGTool.h"; sourceTree = "<group>"; };
-		D6F114991E6B20EB00D27054 /* UIButton+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YGTool.m"; sourceTree = "<group>"; };
-		D6F1149A1E6B20EB00D27054 /* UIColor+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YGTool.h"; sourceTree = "<group>"; };
-		D6F1149B1E6B20EB00D27054 /* UIColor+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YGTool.m"; sourceTree = "<group>"; };
-		D6F1149C1E6B20EB00D27054 /* UIImage+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YGTool.h"; sourceTree = "<group>"; };
-		D6F1149D1E6B20EB00D27054 /* UIImage+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YGTool.m"; sourceTree = "<group>"; };
-		D6F1149E1E6B20EB00D27054 /* UIView+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGTool.h"; sourceTree = "<group>"; };
-		D6F1149F1E6B20EB00D27054 /* UIView+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGTool.m"; sourceTree = "<group>"; };
-		D6F114A01E6B20EB00D27054 /* UIWebView+YGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+YGTool.h"; sourceTree = "<group>"; };
-		D6F114A11E6B20EB00D27054 /* UIWebView+YGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+YGTool.m"; sourceTree = "<group>"; };
-		D6F114A21E6B20EB00D27054 /* YGClassCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGClassCollection.h; sourceTree = "<group>"; };
-		D6F114A31E6B20EB00D27054 /* YGObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGObjectModel.h; sourceTree = "<group>"; };
-		D6F114AE1E6B21D700D27054 /* MLTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTabBarVC.h; sourceTree = "<group>"; };
-		D6F114AF1E6B21D700D27054 /* MLTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTabBarVC.m; sourceTree = "<group>"; };
-		D6F114B21E6B249400D27054 /* UIColor+MLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLColor.h"; sourceTree = "<group>"; };
-		D6F114B31E6B249400D27054 /* UIColor+MLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLColor.m"; sourceTree = "<group>"; };
 		DA92DE46395E41C24984B093 /* libPods-MoleNotes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoleNotes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -146,19 +138,154 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5738DDA1E7BDBB80036661C /* HomeVC */ = {
+		D5B582211EA4CA3C00ABB09A /* MoleNotes */ = {
 			isa = PBXGroup;
 			children = (
-				D5738DDB1E7BDBC70036661C /* HomeVC.h */,
-				D5738DDC1E7BDBC70036661C /* HomeVC.m */,
+				D5B5822B1EA4CA3C00ABB09A /* Info.plist */,
+				D5B5822C1EA4CA3C00ABB09A /* main.m */,
+				D5B582221EA4CA3C00ABB09A /* AppDelegate.h */,
+				D5B582231EA4CA3C00ABB09A /* AppDelegate.m */,
+				D5B582241EA4CA3C00ABB09A /* Assets.xcassets */,
+				D5B582251EA4CA3C00ABB09A /* LaunchScreen.storyboard */,
+				D5B582551EA4CA3C00ABB09A /* ViewModel */,
+				D5B5824A1EA4CA3C00ABB09A /* ViewController */,
+				D5B582301EA4CA3C00ABB09A /* Model */,
+				D5B582271EA4CA3C00ABB09A /* HeadClass */,
+				D5B582311EA4CA3C00ABB09A /* Resource */,
+				D5B582321EA4CA3C00ABB09A /* Tools */,
+			);
+			path = MoleNotes;
+			sourceTree = "<group>";
+		};
+		D5B582271EA4CA3C00ABB09A /* HeadClass */ = {
+			isa = PBXGroup;
+			children = (
+				D5B582281EA4CA3C00ABB09A /* MLHeadPCH.pch */,
+			);
+			path = HeadClass;
+			sourceTree = "<group>";
+		};
+		D5B582301EA4CA3C00ABB09A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5FB73181EA4CD1D0047FA6B /* HomeModels */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D5B582311EA4CA3C00ABB09A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D5B582321EA4CA3C00ABB09A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D5FB73101EA4CC0D0047FA6B /* MLDataManager */,
+				D5FB73141EA4CC890047FA6B /* UIColor+MLColor */,
+				D5B582331EA4CA3C00ABB09A /* YG++ */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D5B582331EA4CA3C00ABB09A /* YG++ */ = {
+			isa = PBXGroup;
+			children = (
+				D5B582341EA4CA3C00ABB09A /* NSAttributedString+YGTool.h */,
+				D5B582351EA4CA3C00ABB09A /* NSAttributedString+YGTool.m */,
+				D5B582361EA4CA3C00ABB09A /* NSDate+YGTool.h */,
+				D5B582371EA4CA3C00ABB09A /* NSDate+YGTool.m */,
+				D5B582381EA4CA3C00ABB09A /* NSObject+YGTool.h */,
+				D5B582391EA4CA3C00ABB09A /* NSObject+YGTool.m */,
+				D5B5823A1EA4CA3C00ABB09A /* NSString+YGTool.h */,
+				D5B5823B1EA4CA3C00ABB09A /* NSString+YGTool.m */,
+				D5B5823C1EA4CA3C00ABB09A /* NSTimer+YGTool.h */,
+				D5B5823D1EA4CA3C00ABB09A /* NSTimer+YGTool.m */,
+				D5B5823E1EA4CA3C00ABB09A /* UIButton+YGTool.h */,
+				D5B5823F1EA4CA3C00ABB09A /* UIButton+YGTool.m */,
+				D5B582401EA4CA3C00ABB09A /* UIColor+YGTool.h */,
+				D5B582411EA4CA3C00ABB09A /* UIColor+YGTool.m */,
+				D5B582421EA4CA3C00ABB09A /* UIImage+YGTool.h */,
+				D5B582431EA4CA3C00ABB09A /* UIImage+YGTool.m */,
+				D5B582441EA4CA3C00ABB09A /* UIView+YGTool.h */,
+				D5B582451EA4CA3C00ABB09A /* UIView+YGTool.m */,
+				D5B582461EA4CA3C00ABB09A /* UIWebView+YGTool.h */,
+				D5B582471EA4CA3C00ABB09A /* UIWebView+YGTool.m */,
+				D5B582481EA4CA3C00ABB09A /* YGClassCollection.h */,
+				D5B582491EA4CA3C00ABB09A /* YGObjectModel.h */,
+			);
+			path = "YG++";
+			sourceTree = "<group>";
+		};
+		D5B5824A1EA4CA3C00ABB09A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D5B582521EA4CA3C00ABB09A /* HomeVC */,
+				D5B5824B1EA4CA3C00ABB09A /* BaseView */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D5B5824B1EA4CA3C00ABB09A /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				D5B5824C1EA4CA3C00ABB09A /* BaseView.h */,
+				D5B5824D1EA4CA3C00ABB09A /* BaseView.m */,
+				D5B5824E1EA4CA3C00ABB09A /* BaseViewControler.h */,
+				D5B5824F1EA4CA3C00ABB09A /* BaseViewControler.m */,
+				D5B582501EA4CA3C00ABB09A /* MLTabBarVC.h */,
+				D5B582511EA4CA3C00ABB09A /* MLTabBarVC.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		D5B582521EA4CA3C00ABB09A /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				D5B582531EA4CA3C00ABB09A /* HomeVC.h */,
+				D5B582541EA4CA3C00ABB09A /* HomeVC.m */,
 			);
 			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		D5B582551EA4CA3C00ABB09A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D5FB73101EA4CC0D0047FA6B /* MLDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D5FB73111EA4CC0D0047FA6B /* MLDataManager.h */,
+				D5FB73121EA4CC0D0047FA6B /* MLDataManager.m */,
+			);
+			path = MLDataManager;
+			sourceTree = "<group>";
+		};
+		D5FB73141EA4CC890047FA6B /* UIColor+MLColor */ = {
+			isa = PBXGroup;
+			children = (
+				D5FB73151EA4CCAF0047FA6B /* UIColor+MLColor.h */,
+				D5FB73161EA4CCAF0047FA6B /* UIColor+MLColor.m */,
+			);
+			path = "UIColor+MLColor";
+			sourceTree = "<group>";
+		};
+		D5FB73181EA4CD1D0047FA6B /* HomeModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModels;
 			sourceTree = "<group>";
 		};
 		D6F114441E6B0BF700D27054 = {
 			isa = PBXGroup;
 			children = (
-				D6F1144F1E6B0BF800D27054 /* MoleNotes */,
+				D5B582211EA4CA3C00ABB09A /* MoleNotes */,
 				D6F114691E6B0BF900D27054 /* MoleNotesTests */,
 				D6F114741E6B0BF900D27054 /* MoleNotesUITests */,
 				D6F1144E1E6B0BF800D27054 /* Products */,
@@ -177,31 +304,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D6F1144F1E6B0BF800D27054 /* MoleNotes */ = {
-			isa = PBXGroup;
-			children = (
-				D5738DDA1E7BDBB80036661C /* HomeVC */,
-				D6F1148C1E6B20CB00D27054 /* ToolClass */,
-				D6F1148A1E6B1DA200D27054 /* HeadClass */,
-				D6F114831E6B1D5300D27054 /* BaseClass */,
-				D6F114531E6B0BF800D27054 /* AppDelegate.h */,
-				D6F114541E6B0BF800D27054 /* AppDelegate.m */,
-				D6F1145C1E6B0BF900D27054 /* Assets.xcassets */,
-				D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */,
-				D6F114611E6B0BF900D27054 /* Info.plist */,
-				D6F114501E6B0BF800D27054 /* Supporting Files */,
-			);
-			path = MoleNotes;
-			sourceTree = "<group>";
-		};
-		D6F114501E6B0BF800D27054 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D6F114511E6B0BF800D27054 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		D6F114691E6B0BF900D27054 /* MoleNotesTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,74 +320,6 @@
 				D6F114771E6B0BF900D27054 /* Info.plist */,
 			);
 			path = MoleNotesUITests;
-			sourceTree = "<group>";
-		};
-		D6F114831E6B1D5300D27054 /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				D6F114AE1E6B21D700D27054 /* MLTabBarVC.h */,
-				D6F114AF1E6B21D700D27054 /* MLTabBarVC.m */,
-				D6F114841E6B1D7200D27054 /* BaseViewControler.h */,
-				D6F114851E6B1D7200D27054 /* BaseViewControler.m */,
-				D6F114871E6B1D8500D27054 /* BaseView.h */,
-				D6F114881E6B1D8500D27054 /* BaseView.m */,
-			);
-			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		D6F1148A1E6B1DA200D27054 /* HeadClass */ = {
-			isa = PBXGroup;
-			children = (
-				D6F1148B1E6B1DD000D27054 /* MLHeadPCH.pch */,
-				D6F114B21E6B249400D27054 /* UIColor+MLColor.h */,
-				D6F114B31E6B249400D27054 /* UIColor+MLColor.m */,
-			);
-			path = HeadClass;
-			sourceTree = "<group>";
-		};
-		D6F1148C1E6B20CB00D27054 /* ToolClass */ = {
-			isa = PBXGroup;
-			children = (
-				D6F1148D1E6B20EB00D27054 /* YG++ */,
-				D5738DCE1E7BC3D90036661C /* YGPagesView.h */,
-				D5738DCF1E7BC3D90036661C /* YGPagesView.m */,
-				D5738DD11E7BC5760036661C /* AVC.h */,
-				D5738DD21E7BC5760036661C /* AVC.m */,
-				D5738DD41E7BC5810036661C /* BVC.h */,
-				D5738DD51E7BC5810036661C /* BVC.m */,
-				D5738DD71E7BC58B0036661C /* CVC.h */,
-				D5738DD81E7BC58B0036661C /* CVC.m */,
-			);
-			path = ToolClass;
-			sourceTree = "<group>";
-		};
-		D6F1148D1E6B20EB00D27054 /* YG++ */ = {
-			isa = PBXGroup;
-			children = (
-				D6F1148E1E6B20EB00D27054 /* NSAttributedString+YGTool.h */,
-				D6F1148F1E6B20EB00D27054 /* NSAttributedString+YGTool.m */,
-				D6F114901E6B20EB00D27054 /* NSDate+YGTool.h */,
-				D6F114911E6B20EB00D27054 /* NSDate+YGTool.m */,
-				D6F114921E6B20EB00D27054 /* NSObject+YGTool.h */,
-				D6F114931E6B20EB00D27054 /* NSObject+YGTool.m */,
-				D6F114941E6B20EB00D27054 /* NSString+YGTool.h */,
-				D6F114951E6B20EB00D27054 /* NSString+YGTool.m */,
-				D6F114961E6B20EB00D27054 /* NSTimer+YGTool.h */,
-				D6F114971E6B20EB00D27054 /* NSTimer+YGTool.m */,
-				D6F114981E6B20EB00D27054 /* UIButton+YGTool.h */,
-				D6F114991E6B20EB00D27054 /* UIButton+YGTool.m */,
-				D6F1149A1E6B20EB00D27054 /* UIColor+YGTool.h */,
-				D6F1149B1E6B20EB00D27054 /* UIColor+YGTool.m */,
-				D6F1149C1E6B20EB00D27054 /* UIImage+YGTool.h */,
-				D6F1149D1E6B20EB00D27054 /* UIImage+YGTool.m */,
-				D6F1149E1E6B20EB00D27054 /* UIView+YGTool.h */,
-				D6F1149F1E6B20EB00D27054 /* UIView+YGTool.m */,
-				D6F114A01E6B20EB00D27054 /* UIWebView+YGTool.h */,
-				D6F114A11E6B20EB00D27054 /* UIWebView+YGTool.m */,
-				D6F114A21E6B20EB00D27054 /* YGClassCollection.h */,
-				D6F114A31E6B20EB00D27054 /* YGObjectModel.h */,
-			);
-			path = "YG++";
 			sourceTree = "<group>";
 		};
 		E5D37D5540338378EDED60F2 /* Pods */ = {
@@ -409,8 +443,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F114601E6B0BF900D27054 /* LaunchScreen.storyboard in Resources */,
-				D6F1145D1E6B0BF900D27054 /* Assets.xcassets in Resources */,
+				D5B582571EA4CA3C00ABB09A /* Assets.xcassets in Resources */,
+				D5B582581EA4CA3C00ABB09A /* LaunchScreen.storyboard in Resources */,
+				D5B5825A1EA4CA3C00ABB09A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,27 +518,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F114AA1E6B20EB00D27054 /* UIColor+YGTool.m in Sources */,
-				D6F114AB1E6B20EB00D27054 /* UIImage+YGTool.m in Sources */,
-				D6F114A61E6B20EB00D27054 /* NSObject+YGTool.m in Sources */,
-				D5738DDD1E7BDBC70036661C /* HomeVC.m in Sources */,
-				D6F114AD1E6B20EB00D27054 /* UIWebView+YGTool.m in Sources */,
-				D6F114AC1E6B20EB00D27054 /* UIView+YGTool.m in Sources */,
-				D6F114551E6B0BF800D27054 /* AppDelegate.m in Sources */,
-				D5738DD61E7BC5810036661C /* BVC.m in Sources */,
-				D5738DD31E7BC5760036661C /* AVC.m in Sources */,
-				D6F114521E6B0BF800D27054 /* main.m in Sources */,
-				D6F114A91E6B20EB00D27054 /* UIButton+YGTool.m in Sources */,
-				D6F114A51E6B20EB00D27054 /* NSDate+YGTool.m in Sources */,
-				D6F114B01E6B21D700D27054 /* MLTabBarVC.m in Sources */,
-				D5738DD91E7BC58B0036661C /* CVC.m in Sources */,
-				D6F114861E6B1D7200D27054 /* BaseViewControler.m in Sources */,
-				D6F114A71E6B20EB00D27054 /* NSString+YGTool.m in Sources */,
-				D6F114B41E6B249400D27054 /* UIColor+MLColor.m in Sources */,
-				D6F114A41E6B20EB00D27054 /* NSAttributedString+YGTool.m in Sources */,
-				D5738DD01E7BC3D90036661C /* YGPagesView.m in Sources */,
-				D6F114891E6B1D8500D27054 /* BaseView.m in Sources */,
-				D6F114A81E6B20EB00D27054 /* NSTimer+YGTool.m in Sources */,
+				D5FB73171EA4CCAF0047FA6B /* UIColor+MLColor.m in Sources */,
+				D5B582631EA4CA3C00ABB09A /* UIColor+YGTool.m in Sources */,
+				D5B582641EA4CA3C00ABB09A /* UIImage+YGTool.m in Sources */,
+				D5B582671EA4CA3C00ABB09A /* BaseView.m in Sources */,
+				D5B5826A1EA4CA3C00ABB09A /* HomeVC.m in Sources */,
+				D5B5825F1EA4CA3C00ABB09A /* NSObject+YGTool.m in Sources */,
+				D5B582661EA4CA3C00ABB09A /* UIWebView+YGTool.m in Sources */,
+				D5FB73131EA4CC0D0047FA6B /* MLDataManager.m in Sources */,
+				D5B582651EA4CA3C00ABB09A /* UIView+YGTool.m in Sources */,
+				D5B582691EA4CA3C00ABB09A /* MLTabBarVC.m in Sources */,
+				D5B582621EA4CA3C00ABB09A /* UIButton+YGTool.m in Sources */,
+				D5B5825E1EA4CA3C00ABB09A /* NSDate+YGTool.m in Sources */,
+				D5B5825B1EA4CA3C00ABB09A /* main.m in Sources */,
+				D5B582601EA4CA3C00ABB09A /* NSString+YGTool.m in Sources */,
+				D5B582681EA4CA3C00ABB09A /* BaseViewControler.m in Sources */,
+				D5B5825D1EA4CA3C00ABB09A /* NSAttributedString+YGTool.m in Sources */,
+				D5B582561EA4CA3C00ABB09A /* AppDelegate.m in Sources */,
+				D5B582611EA4CA3C00ABB09A /* NSTimer+YGTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,10 +571,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D6F1145E1E6B0BF900D27054 /* LaunchScreen.storyboard */ = {
+		D5B582251EA4CA3C00ABB09A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6F1145F1E6B0BF900D27054 /* Base */,
+				D5B582261EA4CA3C00ABB09A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

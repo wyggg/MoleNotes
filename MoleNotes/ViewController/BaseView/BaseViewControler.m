@@ -1,22 +1,26 @@
 //
-//  BVC.m
+//  BaseViewControler.m
 //  MoleNotes
 //
-//  Created by iOS wugang on 17/3/17.
+//  Created by wugang on 17/3/5.
 //  Copyright © 2017年 wugang. All rights reserved.
 //
 
-#import "BVC.h"
+#import "BaseViewControler.h"
 
-@interface BVC ()
+@interface BaseViewControler ()
 
 @end
 
-@implementation BVC
+@implementation BaseViewControler
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+   self.view.backgroundColor = [UIColor mlBacrgroundColor];
+   
+   [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {
