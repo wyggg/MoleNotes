@@ -7,6 +7,7 @@
 //
 
 #import "HomeVC.h"
+#import "MLDataManager.h"
 
 @interface HomeVC ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>{
     
@@ -22,6 +23,8 @@
     [super viewDidLoad];
     self.title = @"Demo";
     [self loadUI];
+    
+    [MLDataManager shareDataManager];
 }
 
 - (void)loadUI{
@@ -66,7 +69,12 @@
 #pragma mark - ButtonEvents
 
 - (void)reigtButtonAddEvents:(UIBarButtonItem *)item{
-    NSLog(@"addadd");
+    
+    Notes *noteModel = [NSEntityDescription insertNewObjectForEntityForName:@"Notes" inManagedObjectContext:[[MLDataManager shareDataManager] context]];
+    noteModel.title = @"标题";
+    noteModel.contentText = @"内容 内容 内容";
+    noteModel.updateTime =[NSNumber numberWithDouble:[[NSDate date] timeIntervalSince1970]];
+    [[MLDataManager shareDataManager] saveContext];
 }
 
 @end

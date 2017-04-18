@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9FBE2449850AE4E174335E84 /* libPods-MoleNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA92DE46395E41C24984B093 /* libPods-MoleNotes.a */; };
+		D52DEC8B1EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D52DEC891EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodeld */; };
+		D57C38CD1EA5E43F0000F29F /* MLNoteDatas.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = D52DEC891EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodeld */; };
 		D5B582561EA4CA3C00ABB09A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582231EA4CA3C00ABB09A /* AppDelegate.m */; };
 		D5B582571EA4CA3C00ABB09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B582241EA4CA3C00ABB09A /* Assets.xcassets */; };
 		D5B582581EA4CA3C00ABB09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B582251EA4CA3C00ABB09A /* LaunchScreen.storyboard */; };
-		D5B5825A1EA4CA3C00ABB09A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5B5822B1EA4CA3C00ABB09A /* Info.plist */; };
 		D5B5825B1EA4CA3C00ABB09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5822C1EA4CA3C00ABB09A /* main.m */; };
 		D5B5825D1EA4CA3C00ABB09A /* NSAttributedString+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582351EA4CA3C00ABB09A /* NSAttributedString+YGTool.m */; };
 		D5B5825E1EA4CA3C00ABB09A /* NSDate+YGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B582371EA4CA3C00ABB09A /* NSDate+YGTool.m */; };
@@ -53,6 +54,13 @@
 /* Begin PBXFileReference section */
 		1E8D8656BF4C0910B48CDA70 /* Pods-MoleNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.debug.xcconfig"; sourceTree = "<group>"; };
 		B611F21919F1947571F6B5BF /* Pods-MoleNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoleNotes/Pods-MoleNotes.release.xcconfig"; sourceTree = "<group>"; };
+		D52DEC8A1EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MLNoteDatas.xcdatamodel; sourceTree = "<group>"; };
+		D52DEC8C1EA5B0000047A3B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D52DEC971EA5D4470047A3B8 /* Notes+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notes+CoreDataClass.h"; sourceTree = "<group>"; };
+		D52DEC981EA5D4470047A3B8 /* Notes+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Notes+CoreDataClass.m"; sourceTree = "<group>"; };
+		D52DEC991EA5D4470047A3B8 /* Notes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D52DEC9A1EA5D4470047A3B8 /* Notes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Notes+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D57C38CE1EA5FC7E0000F29F /* MLNoteDatas 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MLNoteDatas 2.xcdatamodel"; sourceTree = "<group>"; };
 		D5B582221EA4CA3C00ABB09A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5B582231EA4CA3C00ABB09A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D5B582241EA4CA3C00ABB09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,9 +141,18 @@
 		6FF9FAEC8B062651C91E606E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D52DEC8C1EA5B0000047A3B8 /* CoreData.framework */,
 				DA92DE46395E41C24984B093 /* libPods-MoleNotes.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D52DEC881EA5AB940047A3B8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D52DEC891EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		D5B582211EA4CA3C00ABB09A /* MoleNotes */ = {
@@ -176,6 +193,7 @@
 		D5B582311EA4CA3C00ABB09A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				D52DEC881EA5AB940047A3B8 /* CoreData */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -183,8 +201,8 @@
 		D5B582321EA4CA3C00ABB09A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				D5FB73101EA4CC0D0047FA6B /* MLDataManager */,
 				D5FB73141EA4CC890047FA6B /* UIColor+MLColor */,
+				D5FB73101EA4CC0D0047FA6B /* MLDataManager */,
 				D5B582331EA4CA3C00ABB09A /* YG++ */,
 			);
 			path = Tools;
@@ -260,6 +278,10 @@
 		D5FB73101EA4CC0D0047FA6B /* MLDataManager */ = {
 			isa = PBXGroup;
 			children = (
+				D52DEC971EA5D4470047A3B8 /* Notes+CoreDataClass.h */,
+				D52DEC981EA5D4470047A3B8 /* Notes+CoreDataClass.m */,
+				D52DEC991EA5D4470047A3B8 /* Notes+CoreDataProperties.h */,
+				D52DEC9A1EA5D4470047A3B8 /* Notes+CoreDataProperties.m */,
 				D5FB73111EA4CC0D0047FA6B /* MLDataManager.h */,
 				D5FB73121EA4CC0D0047FA6B /* MLDataManager.m */,
 			);
@@ -396,13 +418,19 @@
 		D6F114451E6B0BF700D27054 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = wugang;
 				TargetAttributes = {
 					D6F1144C1E6B0BF700D27054 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 7EC754N826;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					D6F114651E6B0BF900D27054 = {
 						CreatedOnToolsVersion = 8.1;
@@ -443,9 +471,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57C38CD1EA5E43F0000F29F /* MLNoteDatas.xcdatamodeld in Resources */,
 				D5B582571EA4CA3C00ABB09A /* Assets.xcassets in Resources */,
 				D5B582581EA4CA3C00ABB09A /* LaunchScreen.storyboard in Resources */,
-				D5B5825A1EA4CA3C00ABB09A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52DEC8B1EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodeld in Sources */,
 				D5FB73171EA4CCAF0047FA6B /* UIColor+MLColor.m in Sources */,
 				D5B582631EA4CA3C00ABB09A /* UIColor+YGTool.m in Sources */,
 				D5B582641EA4CA3C00ABB09A /* UIImage+YGTool.m in Sources */,
@@ -678,7 +707,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E8D8656BF4C0910B48CDA70 /* Pods-MoleNotes.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7EC754N826;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MoleNotes/HeadClass/MLHeadPCH.pch";
 				INFOPLIST_FILE = MoleNotes/Info.plist;
@@ -686,6 +717,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoleNotes/Tools/MLDataManager/MoleNotes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -693,7 +727,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B611F21919F1947571F6B5BF /* Pods-MoleNotes.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7EC754N826;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MoleNotes/HeadClass/MLHeadPCH.pch";
 				INFOPLIST_FILE = MoleNotes/Info.plist;
@@ -701,6 +737,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wugang.MoleNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoleNotes/Tools/MLDataManager/MoleNotes-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -794,6 +832,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D52DEC891EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D57C38CE1EA5FC7E0000F29F /* MLNoteDatas 2.xcdatamodel */,
+				D52DEC8A1EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodel */,
+			);
+			currentVersion = D52DEC8A1EA5ABB20047A3B8 /* MLNoteDatas.xcdatamodel */;
+			path = MLNoteDatas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D6F114451E6B0BF700D27054 /* Project object */;
 }
